@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Polat Apps</title>
+<meta name="description" content="Sade, hızlı ve özenle yapılmış uygulamalar. Simple, fast and carefully crafted apps.">
+<style>
+  :root {
+    --top: #243052;
+    --bottom: #0e1426;
+    --text: #ffffff;
+    --muted: #c8d2e8;
+    --card: rgba(255, 255, 255, 0.06);
+    --line: rgba(255, 255, 255, 0.14);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; min-height: 100%; }
+  body {
+    font-family: "Segoe UI", Roboto, system-ui, -apple-system, sans-serif;
+    color: var(--text);
+    background: linear-gradient(180deg, var(--top), var(--bottom)) fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+  main { width: 100%; max-width: 720px; padding: 18vh 0 48px; text-align: center; }
+  h1 { font-size: clamp(2.6rem, 8vw, 4.2rem); margin: 0 0 12px; letter-spacing: -0.02em; }
+  .tagline { font-size: 1.2rem; color: var(--muted); margin: 0 0 4px; }
+  .tagline.en { font-size: 1rem; margin-bottom: 40px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 28px 24px;
+    margin: 0 auto 20px;
+    text-align: left;
+  }
+  .card h2 { font-size: 1.1rem; margin: 0 0 8px; }
+  .card p { margin: 0 0 16px; color: var(--muted); line-height: 1.5; }
+  .button {
+    display: inline-block;
+    background: #ffffff;
+    color: var(--bottom);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 999px;
+  }
+  a { color: var(--text); }
+  footer { color: var(--muted); font-size: 0.85rem; padding: 24px 0 32px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Polat Apps</h1>
+  <p class="tagline">Sade, hızlı ve özenle yapılmış uygulamalar.</p>
+  <p class="tagline en">Simple, fast and carefully crafted apps.</p>
+
+  <section class="card">
+    <h2>Uygulamalarımız · Our apps</h2>
+    <p>Tüm uygulamalarımıza Google Play'deki geliştirici sayfamızdan ulaşabilirsiniz.<br>
+       All of our apps are available on our Google Play developer page.</p>
+    <a class="button" href="https://play.google.com/store/apps/developer?id=Polat+Apps">Google Play'de gör · View on Google Play</a>
+  </section>
+
+  <section class="card">
+    <h2>İletişim · Contact</h2>
+    <p>Soru, öneri ve destek için · Questions, feedback and support:<br>
+       <a href="mailto:emrepolat2021@gmail.com">emrepolat2021@gmail.com</a></p>
+  </section>
+</main>
+<footer>© Polat Apps</footer>
+</body>
+</html>
